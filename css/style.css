@@ -1,0 +1,69 @@
+@import url("../css/reset.css");
+
+:root {
+    --card-bg-color: #663399;
+    --text-color: #ede9f3;
+    --btn-bg-color: #26a526;
+    --message-font-size: 1.5rem;
+    --count-font-size: 3rem;
+}
+
+body {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    background-color: var(--card-bg-color);
+    color: var(--text-color);
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+}
+
+.app-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    flex: 1;
+}
+
+.message {
+    font-size: var(--message-font-size);
+}
+
+.count {
+    font-size: var(--count-font-size);
+    flex: 1;
+    align-content: center;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+    align-items: center;
+}
+
+.decrement-btn,
+.reset-btn,
+.increment-btn {
+    background-color: var(--btn-bg-color);
+    border: 0.125rem solid black;
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    width: 90%;
+    max-width: 10rem;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+@media (width >= 500px) {
+}
