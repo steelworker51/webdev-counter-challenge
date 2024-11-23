@@ -39,3 +39,8 @@ To view the project locally, you can either open the project files in your code 
 - Get used to using your browser's developer tools now. For now, become familiar with: 
     - Toggling between desktop mode and device emulation/responsive mode.
     - Using inspector mode to inspect elements.
+
+
+### Submitting Your Work
+
+After completing the assignment, make sure to commit your changes and push them back to your own repository and turn in the GitHub link in Google Classroom.
